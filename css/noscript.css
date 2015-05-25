@@ -1,0 +1,24 @@
+#panel
+{
+	text-align: center;
+}
+#panel:before
+{
+	font-family: 'Glyphicons Halflings';
+	content: "\e082";
+	font-size: 100px;
+	color: red;
+	display: block;
+}
+#panel:after
+{
+	content: "You cannot run this application without JavaScript";
+	font-size: 20px;
+	display: block;
+	margin-bottom: 15px;
+	color: white;	
+}
+#panel *
+{
+	display: none !important;
+}
